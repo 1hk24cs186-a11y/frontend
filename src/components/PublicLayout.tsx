@@ -3,7 +3,6 @@ import { useAuth } from "../context/AuthContext";
 
 export default function PublicLayout() {
   const { user } = useAuth();
-
   return (
     <>
       <header className="navbar">
